@@ -5,6 +5,16 @@
 Part of the **LMS Library** distributed system — team `lms-library`, Grupo 2.
 Governance and documentation live in [`library-docs`](https://github.com/code-corhuila/library-docs).
 
+## Migration scope
+
+**Comes from** `lms-library` → `LoginPage.tsx`.
+
+Consume the shared HTTP client and session from `lms-front`; do not re-implement them here.
+
+The full map lives in `library-docs`.
+
+---
+
 ## Branching
 
 Three permanent branches. **None of them accepts a direct commit** — you enter through a child
